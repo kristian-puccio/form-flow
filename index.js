@@ -8,11 +8,11 @@ function Container(props: Props) {
 	return (
 		<FormPage
 			title={ '3' }
+			form="formPage"
+			fields={['email']}
 		/>
 	);
 }
-			// form="formPage"
-			// fields={['email']}
 
 type FormPageProps = {
 	title: string,
